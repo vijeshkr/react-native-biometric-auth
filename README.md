@@ -5,7 +5,7 @@ High-performance Android biometric fingerprint authentication module with device
 ## Features
 
 - ⚡️ Pure Kotlin Android Native Module using `androidx.biometric:biometric`
-- 🔒 Supports Fingerprint scan and device PIN / Pattern / Password fallback (Google Pay style)
+- 🔒 Supports Fingerprint scan and device PIN / Pattern / Password fallback
 - 🚀 Simple, promise-based React Native API
 - 📱 Modern TypeScript definitions included
 
@@ -39,7 +39,7 @@ const authenticateUser = async () => {
       title: 'Unlock Application',
       subtitle: 'Touch fingerprint sensor or enter device PIN',
       cancelText: 'Cancel',
-      allowDeviceCredential: true, // Enables GPay style PIN/Pattern fallback
+      allowDeviceCredential: true,
     });
 
     if (success) {
@@ -67,7 +67,11 @@ Returns `Promise<boolean>`. Launches system `BiometricPrompt` dialog.
 | `cancelText` | `string` | `'Cancel'` | Cancel button text (used when `allowDeviceCredential: false`) |
 | `allowDeviceCredential` | `boolean` | `true` | Allows device PIN/Pattern/Password fallback |
 
+## Contributing
+
+See the [Contributing Guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
 ## License
 
-MIT
+[MIT](LICENSE) © Vijesh K R
 
