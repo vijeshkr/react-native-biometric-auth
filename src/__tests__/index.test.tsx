@@ -15,7 +15,9 @@ describe('BiometricAuth', () => {
 
     const isAvailable = await BiometricAuth.isBiometricAvailable();
     expect(isAvailable).toBe(true);
-    expect(NativeModules.BiometricAuthModule.isBiometricAvailable).toHaveBeenCalled();
+    expect(
+      NativeModules.BiometricAuthModule.isBiometricAvailable
+    ).toHaveBeenCalled();
   });
 
   it('returns false for non-Android platforms', async () => {
@@ -46,4 +48,3 @@ describe('BiometricAuth', () => {
     );
   });
 });
-

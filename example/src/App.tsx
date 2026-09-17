@@ -65,8 +65,8 @@ export default function App() {
             {isAvailable === null
               ? 'Checking...'
               : isAvailable
-              ? 'YES ✅'
-              : 'NO ❌'}
+                ? 'YES ✅'
+                : 'NO ❌'}
           </Text>
         </View>
 
@@ -163,4 +163,3 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 });
-

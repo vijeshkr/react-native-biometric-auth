@@ -31,7 +31,9 @@ export class BiometricAuth {
     return BiometricAuthModule.isBiometricAvailable();
   }
 
-  static async authenticate(options: AuthenticateOptions = {}): Promise<boolean> {
+  static async authenticate(
+    options: AuthenticateOptions = {}
+  ): Promise<boolean> {
     const {
       title = 'Unlock App',
       subtitle = 'Touch fingerprint sensor or enter PIN',
@@ -56,4 +58,3 @@ export const isBiometricAvailable = BiometricAuth.isBiometricAvailable;
 export const authenticate = BiometricAuth.authenticate;
 
 export default BiometricAuth;
-
