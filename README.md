@@ -1,4 +1,4 @@
-# react-native-biometric-auth
+# @vijeshkr/react-native-biometric-auth
 
 High-performance Android biometric fingerprint authentication module with device PIN and pattern fallback for React Native.
 
@@ -12,15 +12,15 @@ High-performance Android biometric fingerprint authentication module with device
 ## Installation
 
 ```sh
-npm install react-native-biometric-auth
+npm install @vijeshkr/react-native-biometric-auth
 # or
-yarn add react-native-biometric-auth
+yarn add @vijeshkr/react-native-biometric-auth
 ```
 
 ## Usage
 
 ```tsx
-import { BiometricAuth } from 'react-native-biometric-auth';
+import { BiometricAuth } from '@vijeshkr/react-native-biometric-auth';
 
 // 1. Check if biometrics or PIN/Pattern is available on device
 const checkAvailability = async () => {

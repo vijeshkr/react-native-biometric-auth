@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-biometric-auth": ["./src/index"]
+      "@vijeshkr/react-native-biometric-auth": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

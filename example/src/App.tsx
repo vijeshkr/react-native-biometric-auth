@@ -8,7 +8,7 @@ import {
   StatusBar,
   ActivityIndicator,
 } from 'react-native';
-import { BiometricAuth } from 'react-native-biometric-auth';
+import { BiometricAuth } from '@vijeshkr/react-native-biometric-auth';
 
 export default function App() {
   const [isAvailable, setIsAvailable] = useState<boolean | null>(null);

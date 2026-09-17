@@ -1,5 +1,5 @@
 {
-  "name": "react-native-biometric-auth",
+  "name": "@vijeshkr/react-native-biometric-auth",
   "version": "0.1.0",
   "description": "High-performance Android biometric fingerprint authentication module with device PIN and pattern fallback for React Native.",
   "main": "./lib/module/index.js",
